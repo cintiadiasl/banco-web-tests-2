@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress run --expose URL=http://localhost:4000",
+    "test-qa": "cypress run --expose URL=http://qa-environment.uol.com.br",
+    "test-prod": "cypress run --expose URL=http://www.uol.com.br",
     "cy:headed": "cypress run --headed",
     "cy:open": "cypress open"
   },
