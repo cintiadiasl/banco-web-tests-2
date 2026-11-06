@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/cintiadiasl/banco-web-tests-2#readme",
   "devDependencies": {
-    "cypress": "^16.2.1"
+    "cypress": "^16.2.1",
+    "cypress-mochawesome-reporter": "^5.0.0"
   }
 }
